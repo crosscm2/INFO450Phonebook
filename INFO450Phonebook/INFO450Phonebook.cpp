@@ -17,7 +17,7 @@ void SetPhoneBook(char ph[10][2][50])
 			cout << "\nEntry : " << p + 1;
 			cout << "\n Please Enter Name : ";
 			cin >> ph[p][0];
-			cout << "\n Please Enter phone number : ";
+			cout << "\n Please Enter phone number : "; 
 			cin >> ph[p][1];
 		}
 		p++;
